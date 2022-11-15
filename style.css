@@ -36,16 +36,15 @@
 }
 
 .image {
-  width: 50%;
+  width: 30%;
   position: absolute;
-  bottom: -35%;
+  bottom: -10px;
   right: -25%;
   transform: rotate(-30deg);
   transition: all 3s ease;
 }
 
 .toLeft {
-  bottom: -25%;
   right: -10%;
   transform: rotate(-20deg);
 }
