@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.block {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.block span {
+  display: inline-block;
+  margin: auto;
+  font-weight: 700;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.first {
+  background-color: salmon;
+}
+
+.last {
+  background-color: saddlebrown;
+}
+
+.animate {
+  position: relative;
+  background-image: url(./landscape.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.image {
+  width: 50%;
+  position: absolute;
+  bottom: -35%;
+  right: -25%;
+  transform: rotate(-30deg);
+  transition: all 3s ease;
+}
+
+.toLeft {
+  bottom: -25%;
+  right: -10%;
+  transform: rotate(-20deg);
+}
+
+
